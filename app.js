@@ -1,7 +1,7 @@
 //jshint eversion:6
 const express=require("express");
 const request=require("request");
-const bodyParser=require("request");
+const bodyParser=require("body-parser");
 const https=require("https");
 
 const app=express();
